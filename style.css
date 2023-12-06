@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+div{
+    margin:100px 0 0 520px;
+}
+
+.div-botao{
+    display:inline-block;
+    margin-top:50px;
+    margin-left:460px;
+}
+
+button{
+    background-color:white;
+    color:black;
+    font-size:20px;
+    border-radius:7px;
+
+}
+
+.vermelho:hover{
+    background-color:red;
+}
+
+.amarelo:hover{
+    background-color:yellow;
+}
+.verde:hover{
+    background-color:green;
+}
+.automatico:hover{
+    background-color:gray;
+}
+
+
+@media screen and (max-width:450px) {
+    div{
+        margin:100px 0 0 520px;
+    }
+    
+    .div-botao{
+        display:inline-block;
+        margin-top:px;
+        margin-left:30px;
+    }
+    
+    button{
+        background-color:white;
+        color:black;
+        font-size:20px;
+        border-radius:7px;
+    
+    }
+    
+  img{
+    width: 200px;
+    margin-left:-390px;
+  }
+}
